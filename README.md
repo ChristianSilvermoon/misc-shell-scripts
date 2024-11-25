@@ -15,6 +15,23 @@ Script of `ffmpeg` incantations to reduce the amount of required memorization-ty
 ## dualsense-menu
 Script that provides an interactive menu for some [dualsensectl](https://github.com/nowrep/dualsensectl) features
 
+## os-update
+A "universal updater" script. Does not actually support all distros and package managers.
+
+> [!CAUTION]
+> Always update using your Distro's __OFFICIALLY RECOMMENDED INSTRUCTIONS__
+>
+> **USE THIS AT YOUR OWN RISK**
+
+This will (hopefully):
+- Create a timeshift snapshot with the comment "Break Glass In Casse of Oopsie Whoopsie"
+- Delete the oldest timeshift snapshot with that comment.
+- Run the command to update distro native packages based on detected distro.
+- Update Flatpak (system) packages
+- Update Flatpak (user) packages
+- Update things installed via `pipx` including injected.
+
+
 ## ps5triggers
 Script that makes manipulating the Adaptive Triggers with [dualsensectl](https://github.com/nowrep/dualsensectl) convenient.
 
