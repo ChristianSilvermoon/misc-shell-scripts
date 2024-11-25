@@ -23,7 +23,7 @@ ps5triggers b.gcn # Gamecube-esque clicky triggers
 ps5triggers b.depth-vibe your-game-here
 ```
 
-# v
+## v
 Universal "View" script
 
 - Lists contents of directories
@@ -33,3 +33,20 @@ Universal "View" script
 - Plays video/audio in [Terminology](https://www.enlightenment.org/about-terminology.md)
 - Displays ODF files with `pandoc` and `bat`
 - Uses `file -b` otherwise
+
+## web-link-handler
+Script to act as a default web browser.
+
+**INTENDED TO BE EDITED BY END USER**
+
+Opens Steam Links in Steam by default
+Opens Youtube Links in FreeTube by default
+Uses `firefox` otherwise
+
+Rules can be defined using the the `$RULES` Associative Array
+
+Behaviors for Rules can be defined using the case statement.
+
+Any rule name that starts with `BLOCK_` will be ignored by default, and a desktop notification sent.
+This may be useful if you wish to prevent certain links from opening.
+
