@@ -12,6 +12,11 @@ Some of these are more useful than others.
 ## avscripts
 Script of `ffmpeg` incantations to reduce the amount of required memorization-typing.
 
+## discord-date
+Print a table of timestamps for Discord using a specified time for an arguement.
+
+Anything supported by the `date` command as a date, should work in theory.
+
 ## dualsense-menu
 Script that provides an interactive menu for some [dualsensectl](https://github.com/nowrep/dualsensectl) features
 
