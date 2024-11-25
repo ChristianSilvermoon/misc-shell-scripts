@@ -22,6 +22,17 @@ ps5triggers b.gcn # Gamecube-esque clicky triggers
 # Set while another program is running
 ps5triggers b.depth-vibe your-game-here
 ```
+
+## roll
+Roll an arbitrary number of dice with an arbitrary number of sides, colorfully.
+
+Examples
+
+```bash
+roll 1d20
+roll 1d4 2d6 3d8 4d20
+```
+
 ## update-dualsense-lightbar-battery
 Sets the LEDs of all connected DualSense controllers to a color based on their current battery percentage using [dualsensectl](https://github.com/nowrep/dualsensectl).
 
