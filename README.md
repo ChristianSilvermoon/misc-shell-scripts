@@ -2,7 +2,7 @@
 
 Random scripts I've written over time that don't particularlly warrant their own Repository.
 
-# BASH Scripts
+# Scripts
 
 ## avscripts
 Script of `ffmpeg` incantations to reduce the amount of required memorization-typing.
