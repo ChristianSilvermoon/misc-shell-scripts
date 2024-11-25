@@ -1,6 +1,11 @@
 # Miscellaneous Shell Scripts
-
 Random scripts I've written over time that don't particularlly warrant their own Repository.
+
+Some of these are more useful than others.
+
+> [!WARNING]
+> - Code Quality is __NOT__ a garauntee.
+> - Use any of these __**AT YOUR OWN RISK**!__
 
 # Scripts
 
