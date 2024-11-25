@@ -22,6 +22,12 @@ ps5triggers b.gcn # Gamecube-esque clicky triggers
 # Set while another program is running
 ps5triggers b.depth-vibe your-game-here
 ```
+## update-dualsense-lightbar-battery
+Sets the LEDs of all connected DualSense controllers to a color based on their current battery percentage using [dualsensectl](https://github.com/nowrep/dualsensectl).
+
+The `$COLORS` array defines the colors to be used.
+
+Intended for use in a once per minute cronjob
 
 ## v
 Universal "View" script
