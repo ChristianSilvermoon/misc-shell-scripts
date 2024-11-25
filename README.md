@@ -73,6 +73,24 @@ roll 1d20
 roll 1d4 2d6 3d8 4d20
 ```
 
+## rom-patchy
+Script to simplify `bps` or `xdelta` patching ROMs from your library.
+
+> [!IMPORTANT]
+> Requires: [`flips`](https://www.smwcentral.net/?a=details&id=11474&p=section) and `xdelta3` to function
+
+If this script is the default program for `.bps` and `.xdelta` files, patching any ROM from your library should become as simple as:
+1. Double Click Patch
+2. Patched ROM magically appears
+
+How it scans, and caches.
+- It scans through and caches the crc32 of ROMs when using bps patches.
+- It scans through and records the history of successfully patched ROMs when using xdelta patches.
+
+It's highly recommended you customize `~/.config/rom-patchy/dirs.conf` to properly include your library. By default it will search all of `$HOME` and `/media/$USER` which will be agonizingly slow.
+
+Upon succesfully patching a target ROM, subsequent patches of the same target ROM should become faster thanks to caching.
+
 ## update-dualsense-lightbar-battery
 Sets the LEDs of all connected DualSense controllers to a color based on their current battery percentage using [dualsensectl](https://github.com/nowrep/dualsensectl).
 
