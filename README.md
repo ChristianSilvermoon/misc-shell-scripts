@@ -53,6 +53,9 @@ ps5triggers b.depth-vibe your-game-here
 ## pw-restart
 Restarts `pipewire`, `pipewire-pulse`, and `wireplumber` user services.
 
+## rar27z
+Convert RAR archive to 7z archive. Because some people still live in the dark ages and use WinRAR I guess.
+
 ## roll
 Roll an arbitrary number of dice with an arbitrary number of sides, colorfully.
 
