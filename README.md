@@ -50,6 +50,9 @@ ps5triggers b.gcn # Gamecube-esque clicky triggers
 ps5triggers b.depth-vibe your-game-here
 ```
 
+## pw-restart
+Restarts `pipewire`, `pipewire-pulse`, and `wireplumber` user services.
+
 ## roll
 Roll an arbitrary number of dice with an arbitrary number of sides, colorfully.
 
