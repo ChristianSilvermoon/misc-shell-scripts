@@ -24,7 +24,6 @@ parse-os-release() {
 indent() {
 	local amount=${1:-${INDENT_LEVEL:-3}}
 	local x
-	echo "AMMOUNT: $amount"
 	while read x; do
 		printf -- "%${amount}s%s\n" "" "$x"
 	done
